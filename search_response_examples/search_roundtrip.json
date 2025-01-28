@@ -1,0 +1,169 @@
+[
+  {
+    "price": 53613.00,
+    "currency": "RUB",
+    "url": "http://BOOKING_PAGE_DEEPLINK",
+    "seats": 4,
+    "commission": 0.045,
+    "segment": [
+      {
+        "flight": [
+          {
+            "operatingCarrier": "3U",
+            "marketingCarrier": "3U",
+            "number": "3888",
+            "departure": "SVO",
+            "departureDate": "2025-02-26",
+            "departureTime": "21:55",
+            "arrival": "TFU",
+            "arrivalDate": "2025-02-27",
+            "arrivalTime": "11:40",
+            "equipment": "359",
+            "cabin": "Y",
+            "baggage": "1PC23",
+            "virtualInterline": false
+          },
+          {
+            "operatingCarrier": "3U",
+            "marketingCarrier": "3U",
+            "number": "3937",
+            "departure": "TFU",
+            "departureDate": "2025-02-28",
+            "departureTime": "09:00",
+            "arrival": "BKK",
+            "arrivalDate": "2025-02-28",
+            "arrivalTime": "11:10",
+            "equipment": "321",
+            "cabin": "Y",
+            "baggage": "1PC23",
+            "virtualInterline": false
+          }
+        ]
+      },
+      {
+        "flight": [
+          {
+            "operatingCarrier": "3U",
+            "marketingCarrier": "3U",
+            "number": "3936",
+            "departure": "BKK",
+            "departureDate": "2025-03-12",
+            "departureTime": "18:50",
+            "arrival": "TFU",
+            "arrivalDate": "2025-03-12",
+            "arrivalTime": "22:50",
+            "equipment": "321",
+            "cabin": "Y",
+            "baggage": "1PC23",
+            "virtualInterline": false
+          },
+          {
+            "operatingCarrier": "3U",
+            "marketingCarrier": "3U",
+            "number": "3887",
+            "departure": "TFU",
+            "departureDate": "2025-03-13",
+            "departureTime": "16:30",
+            "arrival": "SVO",
+            "arrivalDate": "2025-03-13",
+            "arrivalTime": "20:00",
+            "equipment": "359",
+            "cabin": "Y",
+            "baggage": "1PC23",
+            "virtualInterline": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "price": 87113.00,
+    "currency": "RUB",
+    "url": "http://BOOKING_PAGE_DEEPLINK",
+    "seats": 9,
+    "commission": 0.025,
+    "segment": [
+      {
+        "flight": [
+          {
+            "operatingCarrier": "G9",
+            "marketingCarrier": "G9",
+            "number": "957",
+            "departure": "DME",
+            "departureDate": "2025-02-26",
+            "departureTime": "00:20",
+            "arrival": "SHJ",
+            "arrivalDate": "2025-02-26",
+            "arrivalTime": "07:00",
+            "cabin": "Y",
+            "baggage": "0PC",
+            "virtualInterline": false
+          },
+          {
+            "operatingCarrier": "G9",
+            "marketingCarrier": "G9",
+            "number": "816",
+            "departure": "SHJ",
+            "departureDate": "2025-02-26",
+            "departureTime": "07:50",
+            "arrival": "BKK",
+            "arrivalDate": "2025-02-26",
+            "arrivalTime": "16:50",
+            "cabin": "Y",
+            "baggage": "0PC",
+            "virtualInterline": false
+          }
+        ]
+      },
+      {
+        "flight": [
+          {
+            "operatingCarrier": "VZ",
+            "marketingCarrier": "VZ",
+            "number": "3718",
+            "departure": "BKK",
+            "departureDate": "2025-03-12",
+            "departureTime": "19:25",
+            "arrival": "PKX",
+            "arrivalDate": "2025-03-13",
+            "arrivalTime": "01:00",
+            "equipment": "320",
+            "cabin": "Y",
+            "baggage": "0PC",
+            "virtualInterline": true
+          },
+          {
+            "operatingCarrier": "S7",
+            "marketingCarrier": "S7",
+            "number": "6312",
+            "departure": "PKX",
+            "departureDate": "2025-03-13",
+            "departureTime": "05:35",
+            "arrival": "IKT",
+            "arrivalDate": "2025-03-13",
+            "arrivalTime": "08:45",
+            "equipment": "73H",
+            "cabin": "Y",
+            "baggage": "0PC",
+            "virtualInterline": false
+          },
+          {
+            "operatingCarrier": "S7",
+            "marketingCarrier": "S7",
+            "number": "3022",
+            "departure": "IKT",
+            "departureDate": "2025-03-13",
+            "departureTime": "11:15",
+            "arrival": "DME",
+            "arrivalDate": "2025-03-13",
+            "arrivalTime": "12:40",
+            "equipment": "320",
+            "cabin": "Y",
+            "baggage": "0PC",
+            "virtualInterline": false
+          }
+        ]
+      }
+    ]
+  }
+]

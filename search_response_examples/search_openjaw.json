@@ -1,0 +1,64 @@
+[
+  {
+    "price": 18076.00,
+    "currency": "RUB",
+    "url": "http://BOOKING_PAGE_DEEPLINK",
+    "commission": 4.5,
+    "segment": [
+      {
+        "flight": [
+          {
+            "operatingCarrier": "FD",
+            "marketingCarrier": "FD",
+            "number": "376",
+            "departure": "HKT",
+            "departureDate": "2024-12-14",
+            "departureTime": "09:45",
+            "arrival": "SIN",
+            "arrivalDate": "2024-12-14",
+            "arrivalTime": "12:40",
+            "cabin": "Y",
+            "baggage": "0PC",
+            "virtualInterline": false
+          }
+        ]
+      },
+      {
+        "flight": [
+          {
+            "operatingCarrier": "AK",
+            "marketingCarrier": "AK",
+            "number": "722",
+            "departure": "SIN",
+            "departureDate": "2024-12-17",
+            "departureTime": "23:40",
+            "arrival": "KUL",
+            "arrivalDate": "2024-12-18",
+            "arrivalTime": "00:35",
+            "cabin": "Y",
+            "baggage": "0PC",
+            "virtualInterline": false
+          }
+        ]
+      },
+      {
+        "flight": [
+          {
+            "operatingCarrier": "AK",
+            "marketingCarrier": "AK",
+            "number": "826",
+            "departure": "KUL",
+            "departureDate": "2024-12-19",
+            "departureTime": "18:00",
+            "arrival": "HKT",
+            "arrivalDate": "2024-12-19",
+            "arrivalTime": "18:30",
+            "cabin": "Y",
+            "baggage": "0PC",
+            "virtualInterline": false
+          }
+        ]
+      }
+    ]
+  }
+]

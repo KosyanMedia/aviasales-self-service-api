@@ -1,0 +1,154 @@
+[
+  {
+    "price": 18810.00,
+    "currency": "RUB",
+    "url": "http://BOOKING_PAGE_DEEPLINK",
+    "seats": 9,
+    "commission": 0.025,
+    "segment": [
+      {
+        "flight": [
+          {
+            "operatingCarrier": "SU",
+            "marketingCarrier": "SU",
+            "number": "1702",
+            "departure": "SVO",
+            "departureDate": "2025-02-26",
+            "departureTime": "20:30",
+            "arrival": "VVO",
+            "arrivalDate": "2025-02-27",
+            "arrivalTime": "12:05",
+            "equipment": "77W",
+            "cabin": "Y",
+            "baggage": "1PC23",
+            "handbags": "1PC10",
+            "totalBaggageCount": 1,
+            "virtualInterline": false,
+            "isCharter": false,
+            "fareCode": "BPXOWRF",
+            "isBus": false,
+            "isTrain": false,
+            "technicalStops": [
+              {
+                "airportCode": "SVX"
+              }
+            ],
+            "fare": {
+              "returnBeforeFlight": {
+                "available": true,
+                "currency": "RUB",
+                "penalty": 0.00
+              },
+              "returnAfterFlight": {
+                "available": true,
+                "currency": "RUB",
+                "penalty": 2940.00
+              },
+              "changeBeforeFlight": {
+                "available": true,
+                "currency": "RUB",
+                "penalty": 2800.00
+              },
+              "changeAfterFlight": {
+                "available": false
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "price": 30211.00,
+    "currency": "RUB",
+    "url": "http://BOOKING_PAGE_DEEPLINK",
+    "seats": 9,
+    "commission": 0.025,
+    "segment": [
+      {
+        "flight": [
+          {
+            "operatingCarrier": "U6",
+            "marketingCarrier": "U6",
+            "number": "271",
+            "departure": "DME",
+            "departureDate": "2025-02-26",
+            "departureTime": "23:45",
+            "arrival": "SVX",
+            "arrivalDate": "2025-02-27",
+            "arrivalTime": "04:05",
+            "equipment": "320",
+            "cabin": "Y",
+            "baggage": "0PC",
+            "handbags": "1PC10",
+            "totalBaggageCount": 1,
+            "virtualInterline": false,
+            "isCharter": true,
+            "charterType": "regular",
+            "fareCode": "PPRSW",
+            "isBus": false,
+            "isTrain": false,
+            "fare": {
+              "returnBeforeFlight": {
+                "available": true,
+                "currency": "RUB",
+                "penalty": 0.00
+              },
+              "returnAfterFlight": {
+                "available": false
+              },
+              "changeBeforeFlight": {
+                "available": true,
+                "currency": "RUB",
+                "penalty": 0.00
+              },
+              "changeAfterFlight": {
+                "available": false
+              }
+            }
+          },
+          {
+            "operatingCarrier": "U6",
+            "marketingCarrier": "U6",
+            "number": "571",
+            "departure": "SVX",
+            "departureDate": "2025-02-27",
+            "departureTime": "18:15",
+            "arrival": "VVO",
+            "arrivalDate": "2025-02-28",
+            "arrivalTime": "06:20",
+            "equipment": "32N",
+            "cabin": "Y",
+            "baggage": "0PC",
+            "handbags": "1PC10",
+            "totalBaggageCount": 1,
+            "virtualInterline": false,
+            "isCharter": true,
+            "charterType": "block",
+            "fareCode": "PPRSW",
+            "isBus": false,
+            "isTrain": false,
+            "fare": {
+              "returnBeforeFlight": {
+                "available": true,
+                "currency": "RUB",
+                "penalty": 0.00
+              },
+              "returnAfterFlight": {
+                "available": false
+              },
+              "changeBeforeFlight": {
+                "available": true,
+                "currency": "RUB",
+                "penalty": 0.00
+              },
+              "changeAfterFlight": {
+                "available": false
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

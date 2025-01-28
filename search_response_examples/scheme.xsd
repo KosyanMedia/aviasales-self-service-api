@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+  <xs:element name="variants">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="variant">
+          <xs:complexType mixed="true">
+            <xs:sequence minOccurs="0">
+              <xs:element minOccurs="1" name="price" type="xs:float"/>
+              <xs:element minOccurs="1" name="currency" type="xs:string"/>
+              <xs:element minOccurs="1" name="url" type="xs:string"/>
+              <xs:element minOccurs="0" name="seats" type="xs:integer"/>
+              <xs:element minOccurs="0" name="commission" type="xs:float"/>
+              <xs:element minOccurs="1" maxOccurs="unbounded" name="segment">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="1" maxOccurs="unbounded" name="flight">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="1" name="operatingCarrier" type="xs:string"/>
+                          <xs:element minOccurs="0" name="marketingCarrier" type="xs:string"/>
+                          <xs:element minOccurs="1" name="number" type="xs:integer"/>
+                          <xs:element minOccurs="1" name="departure" type="xs:string"/>
+                          <xs:element minOccurs="1" name="departureDate" type="xs:date"/>
+                          <xs:element minOccurs="1" name="departureTime" type="xs:string"/>
+                          <xs:element minOccurs="1" name="arrival" type="xs:string"/>
+                          <xs:element minOccurs="1" name="arrivalDate" type="xs:date"/>
+                          <xs:element minOccurs="1" name="arrivalTime" type="xs:string"/>
+                          <xs:element minOccurs="0" name="equipment" type="xs:string"/>
+                          <xs:element minOccurs="0" name="cabin" type="xs:string"/>
+                          <xs:element minOccurs="0" name="baggage" type="xs:string"/>
+                          <xs:element minOccurs="0" name="handbags" type="xs:string"/>
+                          <xs:element minOccurs="0" name="totalBaggageCount" type="xs:integer"/>
+                          <xs:element minOccurs="0" name="virtualInterline" type="xs:boolean"/>
+                          <xs:element minOccurs="0" name="isCharter" type="xs:boolean"/>
+                          <xs:element minOccurs="0" name="charterType" type="xs:string"/>
+                          <xs:element minOccurs="0" name="fareCode" type="xs:string"/>
+                          <xs:element minOccurs="0" name="isBus" type="xs:boolean"/>
+                          <xs:element minOccurs="0" name="isTrain" type="xs:boolean"/>
+                          <xs:element minOccurs="0" maxOccurs="unbounded" name="technicalStop">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" name="airportCode" type="xs:string"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="fare">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" name="returnBeforeFlight">
+                                  <xs:complexType mixed="true">
+                                    <xs:sequence>
+                                      <xs:element minOccurs="0" name="available" type="xs:boolean"/>
+                                      <xs:element minOccurs="0" name="currency" type="xs:string"/>
+                                      <xs:element minOccurs="0" name="penalty" type="xs:float"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element minOccurs="0" name="returnAfterFlight">
+                                  <xs:complexType mixed="true">
+                                    <xs:sequence>
+                                      <xs:element minOccurs="0" name="available" type="xs:boolean"/>
+                                      <xs:element minOccurs="0" name="currency" type="xs:string"/>
+                                      <xs:element minOccurs="0" name="penalty" type="xs:float"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element minOccurs="0" name="changeBeforeFlight">
+                                  <xs:complexType mixed="true">
+                                    <xs:sequence>
+                                      <xs:element minOccurs="0" name="available" type="xs:boolean"/>
+                                      <xs:element minOccurs="0" name="currency" type="xs:string"/>
+                                      <xs:element minOccurs="0" name="penalty" type="xs:float"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element minOccurs="0" name="changeAfterFlight">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element minOccurs="0" name="available" type="xs:boolean"/>
+                                      <xs:element minOccurs="0" name="currency" type="xs:string"/>
+                                      <xs:element minOccurs="0" name="penalty" type="xs:float"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
