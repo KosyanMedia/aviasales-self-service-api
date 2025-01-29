@@ -1,0 +1,208 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "price": {
+          "type": "number"
+        },
+        "currency": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "seats": {
+          "type": "integer"
+        },
+        "commission": {
+          "type": "number"
+        },
+        "segment": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "flight": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "operatingCarrier": {
+                          "type": "string"
+                        },
+                        "marketingCarrier": {
+                          "type": "string"
+                        },
+                        "number": {
+                          "type": "string"
+                        },
+                        "departure": {
+                          "type": "string"
+                        },
+                        "departureDate": {
+                          "type": "string"
+                        },
+                        "departureTime": {
+                          "type": "string"
+                        },
+                        "arrival": {
+                          "type": "string"
+                        },
+                        "arrivalDate": {
+                          "type": "string"
+                        },
+                        "arrivalTime": {
+                          "type": "string"
+                        },
+                        "equipment": {
+                          "type": "string"
+                        },
+                        "cabin": {
+                          "type": "string"
+                        },
+                        "baggage": {
+                          "type": "string"
+                        },
+                        "handbags": {
+                          "type": "string"
+                        },
+                        "totalBaggageCount": {
+                          "type": "integer"
+                        },
+                        "virtualInterline": {
+                          "type": "boolean"
+                        },
+                        "isCharter": {
+                          "type": "boolean"
+                        },
+                        "charterType": {
+                          "type": "string"
+                        },
+                        "fareCode": {
+                          "type": "string"
+                        },
+                        "isBus": {
+                          "type": "boolean"
+                        },
+                        "isTrain": {
+                          "type": "boolean"
+                        },
+                        "technicalStops": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "airportCode": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "airportCode"
+                              ]
+                            }
+                          ]
+                        },
+                        "fare": {
+                          "type": "object",
+                          "properties": {
+                            "returnBeforeFlight": {
+                              "type": "object",
+                              "properties": {
+                                "available": {
+                                  "type": "boolean"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                },
+                                "penalty": {
+                                  "type": "number"
+                                }
+                              },
+                              "required": [
+                                "available"
+                              ]
+                            },
+                            "returnAfterFlight": {
+                              "type": "object",
+                              "properties": {
+                                "available": {
+                                  "type": "boolean"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                },
+                                "penalty": {
+                                  "type": "number"
+                                }
+                              },
+                              "required": [
+                                "available"
+                              ]
+                            },
+                            "changeBeforeFlight": {
+                              "type": "object",
+                              "properties": {
+                                "available": {
+                                  "type": "boolean"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                },
+                                "penalty": {
+                                  "type": "number"
+                                }
+                              },
+                              "required": [
+                                "available"
+                              ]
+                            },
+                            "changeAfterFlight": {
+                              "type": "object",
+                              "properties": {
+                                "available": {
+                                  "type": "boolean"
+                                }
+                              },
+                              "required": [
+                                "available"
+                              ]
+                            }
+                          }
+                        }
+                      },
+                      "required": [
+                        "operatingCarrier",
+                        "number",
+                        "departure",
+                        "departureDate",
+                        "departureTime",
+                        "arrival",
+                        "arrivalDate",
+                        "arrivalTime"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "flight"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "price",
+        "currency",
+        "url",
+        "segment"
+      ]
+    }
+  ]
+}
