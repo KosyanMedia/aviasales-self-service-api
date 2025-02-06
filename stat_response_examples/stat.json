@@ -1,0 +1,120 @@
+[
+  {
+    "id": "ABC1000",
+    "PNR": "W8W8W Y7Y7Y",
+    "created_at": "2025-01-28 21:00:00",
+    "marker": "zupe692m2w1s",
+    "price": 70000.00,
+    "profit": 3150.00,
+    "currency": "RUB",
+    "state": "PROCESSING",
+    "adults": 1,
+    "children": 0,
+    "infants": 0,
+    "segment": [
+      {
+        "flight": [
+          {
+            "operatingCarrier": "VF",
+            "number": "276",
+            "departure": "VKO",
+            "departureDate": "2025-05-08",
+            "departureTime": "02:55",
+            "arrival": "SAW",
+            "arrivalDate": "2025-05-08",
+            "arrivalTime": "06:50",
+            "equipment": "73H",
+            "cabin": "Y"
+          },
+          {
+            "operatingCarrier": "VF",
+            "number": "77",
+            "departure": "SAW",
+            "departureDate": "2025-05-08",
+            "departureTime": "09:10",
+            "arrival": "HAM",
+            "arrivalDate": "2025-05-08",
+            "arrivalTime": "10:35",
+            "equipment": "73H",
+            "cabin": "Y"
+          }
+        ]
+      },
+      {
+        "flight": [
+          {
+            "operatingCarrier": "VF",
+            "number": "78",
+            "departure": "HAM",
+            "departureDate": "2025-05-22",
+            "departureTime": "11:35",
+            "arrival": "SAW",
+            "arrivalDate": "2025-05-22",
+            "arrivalTime": "16:45",
+            "equipment": "73H",
+            "cabin": "Y"
+          },
+          {
+            "operatingCarrier": "VF",
+            "number": "275",
+            "departure": "SAW",
+            "departureDate": "2025-05-22",
+            "departureTime": "20:50",
+            "arrival": "VKO",
+            "arrivalDate": "2025-05-23",
+            "arrivalTime": "00:55",
+            "equipment": "73H",
+            "cabin": "Y"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "DEF2000",
+    "PNR": "2B2B2B 3C3C3C",
+    "created_at": "2021-01-29 13:16:52",
+    "marker": "zupem7p46p4w",
+    "price": 60000.00,
+    "profit": 1500.00,
+    "currency": "RUB",
+    "state": "PART_REFUND",
+    "adults": 1,
+    "children": 0,
+    "infants": 0,
+    "segment": [
+      {
+        "flight": [
+          {
+            "operatingCarrier": "N4",
+            "number": "456",
+            "departure": "LED",
+            "departureDate": "2025-02-17",
+            "departureTime": "10:05",
+            "arrival": "AER",
+            "arrivalDate": "2025-02-17",
+            "arrivalTime": "14:45",
+            "equipment": "332",
+            "cabin": "Y"
+          }
+        ]
+      },
+      {
+        "flight": [
+          {
+            "operatingCarrier": "5N",
+            "number": "546",
+            "departure": "AER",
+            "departureDate": "2025-02-21",
+            "departureTime": "15:40",
+            "arrival": "LED",
+            "arrivalDate": "2025-02-21",
+            "arrivalTime": "20:00",
+            "equipment": "32N",
+            "cabin": "Y"
+          }
+        ]
+      }
+    ]
+  }
+]

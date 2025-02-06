@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+    <xs:element name="bookings">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="booking">
+          <xs:complexType mixed="true">
+            <xs:sequence minOccurs="0">
+              <xs:element minOccurs="1" name="id" type="xs:string"/>
+              <xs:element minOccurs="1" name="PNR" type="xs:string"/>
+              <xs:element minOccurs="1" name="created_at" type="xs:string"/>
+              <xs:element minOccurs="1" name="marker" type="xs:string"/>
+              <xs:element minOccurs="1" name="price" type="xs:string"/>
+              <xs:element minOccurs="1" name="profit" type="xs:string"/>
+              <xs:element minOccurs="1" name="currency" type="xs:string"/>
+              <xs:element minOccurs="1" name="state" type="xs:string"/>
+              <xs:element minOccurs="1" name="adults" type="xs:string"/>
+              <xs:element minOccurs="1" name="children" type="xs:string"/>
+              <xs:element minOccurs="1" name="infants" type="xs:string"/>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="segment">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="1" maxOccurs="unbounded" name="flight" >
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="1" name="operatingCarrier" type="xs:string"/>
+                          <xs:element minOccurs="1" name="number" type="xs:string"/>
+                          <xs:element minOccurs="1" name="departure" type="xs:string"/>
+                          <xs:element minOccurs="1" name="departureDate" type="xs:string"/>
+                          <xs:element minOccurs="1" name="departureTime" type="xs:string"/>
+                          <xs:element minOccurs="1" name="arrival" type="xs:string"/>
+                          <xs:element minOccurs="1" name="arrivalDate" type="xs:string"/>
+                          <xs:element minOccurs="1" name="arrivalTime" type="xs:string"/>
+                          <xs:element minOccurs="1" name="equipment" type="xs:string"/>
+                          <xs:element minOccurs="1" name="cabin" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

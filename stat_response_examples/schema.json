@@ -1,0 +1,121 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "PNR": {
+          "type": "string"
+        },
+        "created_at": {
+          "type": "string"
+        },
+        "marker": {
+          "type": "string"
+        },
+        "price": {
+          "type": "number"
+        },
+        "profit": {
+          "type": "number"
+        },
+        "currency": {
+          "type": "string"
+        },
+        "state": {
+          "type": "string"
+        },
+        "adults": {
+          "type": "integer"
+        },
+        "children": {
+          "type": "integer"
+        },
+        "infants": {
+          "type": "integer"
+        },
+        "segment": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "flight": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "operatingCarrier": {
+                          "type": "string"
+                        },
+                        "number": {
+                          "type": "string"
+                        },
+                        "departure": {
+                          "type": "string"
+                        },
+                        "departureDate": {
+                          "type": "string"
+                        },
+                        "departureTime": {
+                          "type": "string"
+                        },
+                        "arrival": {
+                          "type": "string"
+                        },
+                        "arrivalDate": {
+                          "type": "string"
+                        },
+                        "arrivalTime": {
+                          "type": "string"
+                        },
+                        "equipment": {
+                          "type": "string"
+                        },
+                        "cabin": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "operatingCarrier",
+                        "number",
+                        "departure",
+                        "departureDate",
+                        "departureTime",
+                        "arrival",
+                        "arrivalDate",
+                        "arrivalTime",
+                        "cabin"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "flight"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "PNR",
+        "created_at",
+        "marker",
+        "price",
+        "profit",
+        "currency",
+        "state",
+        "adults",
+        "children",
+        "infants"
+      ]
+    }
+  ]
+}
