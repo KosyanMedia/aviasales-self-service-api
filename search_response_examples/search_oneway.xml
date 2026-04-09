@@ -21,7 +21,6 @@
         <cabin>Y</cabin>
         <baggage>1PC23</baggage>
         <handbags>1PC10</handbags>
-        <totalBaggageCount>1</totalBaggageCount>
         <virtualInterline>false</virtualInterline>
         <isCharter>false</isCharter>
         <fareCode>BPXOWRF</fareCode>
@@ -74,7 +73,6 @@
         <cabin>Y</cabin>
         <baggage>0PC</baggage>
         <handbags>1PC10</handbags>
-        <totalBaggageCount>1</totalBaggageCount>
         <virtualInterline>false</virtualInterline>
         <isCharter>true</isCharter>
         <charterType>regular</charterType>
@@ -114,7 +112,6 @@
         <cabin>Y</cabin>
         <baggage>0PC</baggage>
         <handbags>1PC10</handbags>
-        <totalBaggageCount>1</totalBaggageCount>
         <virtualInterline>false</virtualInterline>
         <isCharter>true</isCharter>
         <charterType>block</charterType>
