@@ -20,6 +20,8 @@
         <equipment>359</equipment>
         <cabin>Y</cabin>
         <baggage>1PC23</baggage>
+        <handbags>1PC10x115</handbags>
+        <personalItem>1PC5x10x20x30</personalItem>
         <virtualInterline>false</virtualInterline>
       </flight>
       <flight>
@@ -35,6 +37,8 @@
         <equipment>321</equipment>
         <cabin>Y</cabin>
         <baggage>1PC23</baggage>
+        <handbags>1PC10x115</handbags>
+        <personalItem>1PC5x10x20x30</personalItem>
         <virtualInterline>false</virtualInterline>
       </flight>
     </segment>
@@ -52,6 +56,8 @@
         <equipment>321</equipment>
         <cabin>Y</cabin>
         <baggage>1PC23</baggage>
+        <handbags>1PC10x115</handbags>
+        <personalItem>1PC5x10x20x30</personalItem>
         <virtualInterline>false</virtualInterline>
       </flight>
       <flight>
@@ -67,6 +73,8 @@
         <equipment>359</equipment>
         <cabin>Y</cabin>
         <baggage>1PC23</baggage>
+        <handbags>1PC10x115</handbags>
+        <personalItem>1PC5x10x20x30</personalItem>
         <virtualInterline>false</virtualInterline>
       </flight>
     </segment>
@@ -90,6 +98,8 @@
         <arrivalTime>07:00</arrivalTime>
         <cabin>Y</cabin>
         <baggage>0PC</baggage>
+        <handbags>1PC10x115</handbags>
+        <personalItem>1PC5x10x20x30</personalItem>
         <virtualInterline>false</virtualInterline>
       </flight>
       <flight>
