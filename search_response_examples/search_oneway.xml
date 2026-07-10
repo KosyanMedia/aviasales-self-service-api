@@ -20,7 +20,8 @@
         <equipment>77W</equipment>
         <cabin>Y</cabin>
         <baggage>1PC23</baggage>
-        <handbags>1PC10</handbags>
+        <handbags>1PC10x115</handbags>
+        <personalItem>1PC5x10x20x30</personalItem>
         <virtualInterline>false</virtualInterline>
         <isCharter>false</isCharter>
         <fareCode>BPXOWRF</fareCode>

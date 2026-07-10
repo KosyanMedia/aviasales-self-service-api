@@ -17,7 +17,9 @@
         <arrivalDate>2024-12-14</arrivalDate>
         <arrivalTime>12:40</arrivalTime>
         <cabin>Y</cabin>
-        <baggage>0PC</baggage>
+        <baggage>1PC23</baggage>
+        <handbags>1PC10x115</handbags>
+        <personalItem>1PC5x10x20x30</personalItem>
         <virtualInterline>false</virtualInterline>
       </flight>
     </segment>
@@ -33,7 +35,9 @@
         <arrivalDate>2024-12-18</arrivalDate>
         <arrivalTime>00:35</arrivalTime>
         <cabin>Y</cabin>
-        <baggage>0PC</baggage>
+        <baggage>1PC23</baggage>
+        <handbags>1PC10x115</handbags>
+        <personalItem>1PC5x10x20x30</personalItem>
         <virtualInterline>false</virtualInterline>
       </flight>
     </segment>
