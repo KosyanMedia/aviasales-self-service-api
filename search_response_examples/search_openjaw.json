@@ -18,7 +18,9 @@
             "arrivalDate": "2024-12-14",
             "arrivalTime": "12:40",
             "cabin": "Y",
-            "baggage": "0PC",
+            "baggage": "1PC23",
+            "handbags": "1PC10x115",
+            "personalItem": "1PC5x10x20x30",
             "virtualInterline": false
           }
         ]
