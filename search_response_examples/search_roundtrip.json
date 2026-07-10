@@ -21,6 +21,8 @@
             "equipment": "359",
             "cabin": "Y",
             "baggage": "1PC23",
+            "handbags": "1PC10x115",
+            "personalItem": "1PC5x10x20x30",
             "virtualInterline": false
           },
           {
@@ -36,6 +38,8 @@
             "equipment": "321",
             "cabin": "Y",
             "baggage": "1PC23",
+            "handbags": "1PC10x115",
+            "personalItem": "1PC5x10x20x30",
             "virtualInterline": false
           }
         ]
@@ -55,6 +59,8 @@
             "equipment": "321",
             "cabin": "Y",
             "baggage": "1PC23",
+            "handbags": "1PC10x115",
+            "personalItem": "1PC5x10x20x30",
             "virtualInterline": false
           },
           {
@@ -70,6 +76,8 @@
             "equipment": "359",
             "cabin": "Y",
             "baggage": "1PC23",
+            "handbags": "1PC10x115",
+            "personalItem": "1PC5x10x20x30",
             "virtualInterline": false
           }
         ]
