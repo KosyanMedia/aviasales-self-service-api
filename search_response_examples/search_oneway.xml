@@ -34,20 +34,20 @@
           <returnBeforeFlight>
             <available>true</available>
             <currency>RUB</currency>
-            <penalty>0.00</penalty> <!-- возврат до вылета возможен бесплатно --> 
+            <penalty>0.00</penalty>
           </returnBeforeFlight>
           <returnAfterFlight>
             <available>true</available>
             <currency>RUB</currency>
-            <penalty>2940.00</penalty> <!-- возврат после вылета возможен за доплату -->
+            <penalty>2940.00</penalty>
           </returnAfterFlight>
           <changeBeforeFlight>
             <available>true</available>
             <currency>RUB</currency>
-            <penalty>2800.00</penalty> <!-- обмен до вылета возможет за доплату -->
+            <penalty>2800.00</penalty>
           </changeBeforeFlight>
           <changeAfterFlight>
-            <available>false</available> <!-- обмен после вылета невозможен -->
+            <available>false</available>
           </changeAfterFlight>
         </fare>
       </flight>
