@@ -76,7 +76,6 @@
         <handbags>1PC10</handbags>
         <virtualInterline>false</virtualInterline>
         <isCharter>true</isCharter>
-        <charterType>regular</charterType>
         <fareCode>PPRSW</fareCode>
         <isBus>false</isBus>
         <isTrain>false</isTrain>
@@ -115,7 +114,6 @@
         <handbags>1PC10</handbags>
         <virtualInterline>false</virtualInterline>
         <isCharter>true</isCharter>
-        <charterType>block</charterType>
         <fareCode>PPRSW</fareCode>
         <isBus>false</isBus>
         <isTrain>false</isTrain>
